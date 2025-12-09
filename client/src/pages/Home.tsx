@@ -19,15 +19,15 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-secondary font-ui tracking-[0.2em] mb-4 text-sm md:text-base uppercase">
-              Creative Developer & UI Designer
+              Ali Raja · BCA Final Year Student · Aspiring Software Developer
             </p>
             <GlitchText 
-              text="BUILDING THE FUTURE" 
+              text="BUILDING PRACTICAL DIGITAL SOLUTIONS" 
               className="text-5xl md:text-7xl lg:text-9xl font-display font-black tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-gray-200 to-gray-500"
             />
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg md:text-xl font-sans leading-relaxed mb-10">
-              Crafting immersive digital experiences with code, creativity, and chaos. 
-              Specializing in 3D web, interactive UI, and next-gen frontend architecture.
+              Dedicated to solving real problems with clean logic, responsive UI, and reliable data flows.
+              I enjoy turning ideas into useful digital products that feel fast, stable, and intuitive.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -65,18 +65,18 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard 
               icon={<Code className="text-primary w-10 h-10" />}
-              title="Modern Tech Stack"
-              description="Built with Next.js, Python, Java, and C++ for peak performance."
+              title="Problem-Solving First"
+              description="Break requirements down, design clear flows, and ship maintainable solutions."
             />
             <FeatureCard 
               icon={<Cpu className="text-secondary w-10 h-10" />}
-              title="Creative Interactions"
-              description="Immersive animations powered by Framer Motion and GSAP for fluid UX."
+              title="Backend Logic"
+              description="Comfortable with Java, Python, C/C++, and database design to keep systems reliable."
             />
             <FeatureCard 
               icon={<Globe className="text-accent w-10 h-10" />}
-              title="3D Web Experiences"
-              description="Integrating Three.js and WebGL to bring depth and dimension to the web."
+              title="Responsive Web"
+              description="Modern React and CSS practices so experiences stay smooth on every device."
             />
           </div>
         </div>

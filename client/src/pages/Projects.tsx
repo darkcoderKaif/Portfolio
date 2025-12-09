@@ -6,41 +6,41 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     id: 1,
-    title: "Neon Nexus",
+    title: "Campus Connect",
     category: "Web Application",
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
-    description: "A futuristic dashboard for monitoring crypto assets with real-time WebSocket data and 3D visualizations.",
-    tech: ["React", "Three.js", "WebSocket"],
+    description: "Responsive portal for students to track notices, events, and resources with clean navigation and fast load times.",
+    tech: ["React", "CSS", "API Integration"],
     link: "#",
     github: "#"
   },
   {
     id: 2,
-    title: "Cyber Market",
-    category: "E-Commerce",
+    title: "SkillForge LMS",
+    category: "Platform",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
-    description: "Headless e-commerce platform with a dark mode aesthetic, featuring seamless page transitions and stripe integration.",
-    tech: ["Next.js", "Stripe", "Tailwind"],
+    description: "Learning platform prototype with course listings, progress tracking, and secure authentication flows.",
+    tech: ["React", "Node.js", "MySQL"],
     link: "#",
     github: "#"
   },
   {
     id: 3,
-    title: "Void Chat",
+    title: "Support Desk Lite",
     category: "Communication",
     image: "https://images.unsplash.com/photo-1515630278258-407f66498911?q=80&w=1000&auto=format&fit=crop",
-    description: "End-to-end encrypted chat application with self-destructing messages and anonymous login.",
-    tech: ["Socket.io", "Node.js", "Redis"],
+    description: "Ticketing dashboard that prioritizes requests, shows status at a glance, and keeps updates in sync.",
+    tech: ["React", "Express", "REST APIs"],
     link: "#",
     github: "#"
   },
   {
     id: 4,
-    title: "Aero Design",
+    title: "Portfolio V2",
     category: "Portfolio",
     image: "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1000&auto=format&fit=crop",
-    description: "Award-winning minimal portfolio template for architects and interior designers.",
-    tech: ["Gatsby", "GSAP", "Contentful"],
+    description: "Refined personal portfolio with smooth page transitions, accessible components, and consistent design language.",
+    tech: ["React", "Framer Motion", "CSS"],
     link: "#",
     github: "#"
   }
@@ -52,7 +52,7 @@ export default function Projects() {
       <div className="mb-16">
         <GlitchText text="SELECTED WORKS" className="text-5xl md:text-7xl font-display font-black mb-6" />
         <p className="text-xl text-muted-foreground max-w-2xl">
-          A collection of digital experiments, commercial projects, and open-source contributions.
+          A showcase of practical web applications and projects built with modern technologies, focusing on clean code, responsive design, and reliable functionality.
         </p>
       </div>
 

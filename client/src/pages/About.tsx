@@ -5,20 +5,23 @@ import myProfileImg from "@assets/WhatsApp_Image_2025-12-09_at_12.28.25_PM_17652
 
 export default function About() {
   const skills = [
-    "C++", "JAVA", "C", "ORACLE", "Python", "FoxPro", 
-    "Node.js", "MYSQL",
+    "HTML",
+    "CSS",
+    "Python",
+    "Java",
+    "C++",
+    "C",
+    "MySQL",
+    "Oracle",
   ];
 
   const education = [
     {
-        degree: "BCA",
-          school: "ARCADE BUSINESS COLLEGE",
-          year: "2023 - 2026",
-          desc: "Pursuing a Bachelor of Computer Applications (BCA) at Arcade Business College, focusing on software development, web technologies, and database management. Gaining practical skills in programming, problem-solving, and IT project implementation."
-
-
+      degree: "Bachelor of Computer Applications (BCA)",
+      school: "ARCADE BUSINESS COLLEGE",
+      year: "2023 — 2026",
+      desc: "Final year student focusing on software development, web technologies, database management, and practical problem-solving.",
     },
-    
   ];
 
   return (
@@ -35,11 +38,9 @@ export default function About() {
             <div className="absolute inset-0 border-2 border-primary translate-x-4 translate-y-4"></div>
             <div className="absolute inset-0 border-2 border-secondary -translate-x-4 -translate-y-4"></div>
             <div className="absolute inset-0 bg-zinc-900 overflow-hidden flex items-center justify-center">
-              {/* Placeholder for Profile Image */}
-              <div className="text-6xl font-display font-bold text-zinc-800 select-none">PHOTO</div>
               <img 
                 src={myProfileImg}
-                alt="Profile" 
+                alt="Ali Raja" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
               />
             </div>
@@ -57,12 +58,16 @@ export default function About() {
           
           <div className="space-y-6 text-lg text-muted-foreground font-light leading-relaxed">
             <p>
-              I'm a creative developer obsessed with the intersection of design and technology. 
-              I don't just write code; I craft digital experiences that leave a lasting impression.
+              I'm a dedicated and passionate BCA final-year student with a strong interest in software development. 
+              I focus on problem-solving, backend logic, and building useful digital solutions that make a difference.
             </p>
             <p>
-              I am a passionate web developer and tech enthusiast, currently pursuing my BCA at Arcade Business College. I love building interactive websites and learning new technologies to solve real-world problems.
-              </p>
+              My approach combines clear technical thinking with practical implementation, whether working on responsive web interfaces, 
+              database-driven applications, or integrating APIs for seamless user experiences.
+            </p>
+            <p>
+              I'm committed to continuous learning and collaborating on projects that are fast, reliable, and intuitive to use.
+            </p>
           </div>
 
           <div className="mt-12">
@@ -79,6 +84,32 @@ export default function About() {
               ))}
             </div>
           </div>
+        </motion.div>
+      </div>
+
+      {/* Experience Section */}
+      <div className="mt-24 max-w-4xl mx-auto">
+        <h2 className="text-4xl font-display font-bold mb-12 text-center">
+          <span className="text-secondary">#</span> EXPERIENCE
+        </h2>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="p-8 border border-border bg-card/40 hover:border-primary/60 transition-colors"
+        >
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-4">
+            <div>
+              <h3 className="text-2xl font-display font-bold text-white">Web Development Intern — CloudEdge Solutions</h3>
+              <p className="text-secondary font-ui">June 2024 — September 2024</p>
+            </div>
+          </div>
+          <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+            <li>Developed responsive web interfaces using HTML and CSS.</li>
+            <li>Collaborated with backend developers and integrated APIs.</li>
+            <li>Optimized performance, improved UI/UX, and debugged issues.</li>
+          </ul>
         </motion.div>
       </div>
 
