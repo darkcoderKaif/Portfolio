@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "cd Neon-Portfolio && npm install && npm run build",
+  "outputDirectory": "Neon-Portfolio/dist/public",
+  "installCommand": "cd Neon-Portfolio && npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
+
