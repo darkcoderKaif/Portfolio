@@ -24,9 +24,9 @@ export default function Contact() {
           </p>
 
           <div className="space-y-8">
-            <ContactItem icon={<Mail />} label="Email" value="hello@devpf.com" />
-            <ContactItem icon={<Phone />} label="Phone" value="+1 (555) 123-4567" />
-            <ContactItem icon={<MapPin />} label="Location" value="San Francisco, CA" />
+            <ContactItem icon={<Mail />} label="Email" value="kaif103030@gmail.com" />
+            <ContactItem icon={<Phone />} label="Phone" value="+91 6203030239" />
+            <ContactItem icon={<MapPin />} label="Location" value="Patna, India" />
           </div>
         </motion.div>
 

@@ -1,26 +1,24 @@
 import GlitchText from "@/components/ui/GlitchText";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import myProfileImg from "@assets/WhatsApp_Image_2025-12-09_at_12.28.25_PM_1765266174760.jpeg";
 
 export default function About() {
   const skills = [
-    "React", "TypeScript", "Next.js", "Three.js", "WebGL", "TailwindCSS", 
-    "Node.js", "GraphQL", "Framer Motion", "PostgreSQL", "UI/UX Design", "Blender"
+    "C++", "JAVA", "C", "ORACLE", "Python", "FoxPro", 
+    "Node.js", "MYSQL",
   ];
 
   const education = [
     {
-      degree: "B.S. Computer Science",
-      school: "University of Technology",
-      year: "2018 - 2022",
-      desc: "Specialized in Graphics Programming and Human-Computer Interaction."
+        degree: "BCA",
+          school: "ARCADE BUSINESS COLLEGE",
+          year: "2023 - 2026",
+          desc: "Pursuing a Bachelor of Computer Applications (BCA) at Arcade Business College, focusing on software development, web technologies, and database management. Gaining practical skills in programming, problem-solving, and IT project implementation."
+
+
     },
-    {
-      degree: "Full Stack Certification",
-      school: "Advanced Coding Institute",
-      year: "2023",
-      desc: "Intensive bootcamp focusing on MERN stack and cloud architecture."
-    }
+    
   ];
 
   return (
@@ -40,7 +38,7 @@ export default function About() {
               {/* Placeholder for Profile Image */}
               <div className="text-6xl font-display font-bold text-zinc-800 select-none">PHOTO</div>
               <img 
-                src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop" 
+                src={myProfileImg}
                 alt="Profile" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-500 grayscale hover:grayscale-0"
               />
@@ -55,7 +53,7 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className="mb-2 text-primary font-ui tracking-widest uppercase">Who I Am</div>
-          <GlitchText text="DIGITAL ARTISAN" className="text-5xl md:text-6xl font-display font-bold mb-8 block" />
+          <GlitchText text="ALI RAJA" className="text-5xl md:text-6xl font-display font-bold mb-8 block" />
           
           <div className="space-y-6 text-lg text-muted-foreground font-light leading-relaxed">
             <p>
@@ -63,10 +61,8 @@ export default function About() {
               I don't just write code; I craft digital experiences that leave a lasting impression.
             </p>
             <p>
-              With a background in both traditional graphic design and software engineering, 
-              I bridge the gap between aesthetic vision and technical implementation. 
-              My goal is to build the future of the web—one pixel at a time.
-            </p>
+              I am a passionate web developer and tech enthusiast, currently pursuing my BCA at Arcade Business College. I love building interactive websites and learning new technologies to solve real-world problems.
+              </p>
           </div>
 
           <div className="mt-12">

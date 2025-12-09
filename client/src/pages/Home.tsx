@@ -66,7 +66,7 @@ export default function Home() {
             <FeatureCard 
               icon={<Code className="text-primary w-10 h-10" />}
               title="Modern Tech Stack"
-              description="Built with Next.js, React, TypeScript, and TailwindCSS for peak performance."
+              description="Built with Next.js, Python, Java, and C++ for peak performance."
             />
             <FeatureCard 
               icon={<Cpu className="text-secondary w-10 h-10" />}
