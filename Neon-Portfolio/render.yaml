@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: neon-portfolio
+    env: node
+    rootDir: Neon-Portfolio
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
